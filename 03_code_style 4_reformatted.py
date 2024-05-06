@@ -96,11 +96,11 @@ count_of_my_pets = 34
 if count_of_my_pets > 10:
     print('I need more space for my pets!')
 
-my_favorite_pets_and_bird = ['cat', 'wolf', 'ostrich']
-if 'lion' in my_favorite_pets_and_bird:
+my_pets = ['cat', 'wolf', 'ostrich']
+if 'lion' in my_pets:
     print('Wow!')
 
-MyFavoritePetsAndBirds = ['cat', 'wolf', 'ostrich']
+my_pets = ['cat', 'wolf', 'ostrich']
 # но такой стиль используется для названий классов
 
 
@@ -113,13 +113,13 @@ MyFavoritePetsAndBirds = ['cat', 'wolf', 'ostrich']
 #   x y z - для координат
 
 # никогда не используйте в названиях переменных одиночные l, I, O  !
-l_ = 34
-I_ = 43
-if l_ > I_:
-    print()
-O_ = 9
-if O_ > 0:
-    print()
+liquor_volume = 34
+Inner_space = 43
+if liquor_volume > Inner_space:
+    print('Not enough!')
+Outside_temperature = 9
+if Outside_temperature > 0:
+    print('It is not too cold outside')
 
 # lowercase (слово в нижнем регистре)
 # lower_case_with_underscores (слова из маленьких букв с подчеркиваниями)
